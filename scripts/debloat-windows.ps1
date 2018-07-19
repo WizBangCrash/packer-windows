@@ -1,3 +1,5 @@
+[Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
+# [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 if ($env:PACKER_BUILDER_TYPE -And $($env:PACKER_BUILDER_TYPE).startsWith("hyperv")) {
   Write-Host Skip debloat steps in Hyper-V build.
 } else {
