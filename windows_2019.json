@@ -142,7 +142,7 @@
       "scripts": [
         "./scripts/pin-powershell.bat",
         "./scripts/set-winrm-automatic.bat",
-        "./scripts/uac-enable.bat",
+        "./scripts/enable-uac.bat",
         "./scripts/compile-dotnet-assemblies.bat",
         "./scripts/dis-updates.bat",
         "./scripts/compact.bat"

@@ -61,7 +61,7 @@
     },
     {
       "scripts": [
-        "./scripts/uac-enable.bat",
+        "./scripts/enable-uac.bat",
         "./scripts/set-winrm-automatic.bat",
         "./scripts/compact.bat"
       ],

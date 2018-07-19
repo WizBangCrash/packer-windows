@@ -124,7 +124,7 @@
       "execute_command": "{{ .Vars }} cmd /c \"{{ .Path }}\"",
       "scripts": [
         "./scripts/set-winrm-automatic.bat",
-        "./scripts/uac-enable.bat",
+        "./scripts/enable-uac.bat",
         "./scripts/compact.bat"
       ],
       "type": "windows-shell"
