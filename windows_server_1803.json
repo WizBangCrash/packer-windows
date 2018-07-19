@@ -139,7 +139,7 @@
       "scripts": [
         "./scripts/set-winrm-automatic.bat",
         "./scripts/compile-dotnet-assemblies.bat",
-        "./scripts/uac-enable.bat",
+        "./scripts/enable-uac.bat",
         "./scripts/compact.bat"
       ],
       "type": "windows-shell"
