@@ -152,8 +152,7 @@
     },
     {
       "scripts": [
-        "./scripts/install-git.ps1",
-        "./scripts/install-vscode.ps1"
+        "./scripts/install-apps.ps1"
       ],
       "type": "powershell"
     },
