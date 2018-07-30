@@ -4,7 +4,11 @@
 
 ### Introduction
 
-This repository contains Windows templates that can be used to create boxes for
+This fork of [Stefan Scherer's](https://github.com/StefanScherer/packer-windows) packer-windows
+repository was created to focus on the windows10 section and get it to work with the
+latest Windows 10 1803 build.
+
+The repository contains Windows templates that can be used to create boxes for
 Vagrant using Packer ([Website](https://www.packer.io))
 ([Github](https://github.com/mitchellh/packer)).
 
@@ -20,7 +24,7 @@ Some of my enhancements are:
 
 ### Packer Version
 
-[Packer](https://github.com/mitchellh/packer/blob/master/CHANGELOG.md) `1.1.3` is recommended.
+[Packer](https://github.com/mitchellh/packer/blob/master/CHANGELOG.md) `1.2.5` is recommended.
 
 ### Windows Versions
 
