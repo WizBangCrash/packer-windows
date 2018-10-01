@@ -55,7 +55,7 @@
       "iso_url": "{{user `iso_url`}}",
       "shutdown_command": "a:/sysprep.bat",
       "type": "vmware-iso",
-      "version": 14,
+      "version": 16,
       "vm_name": "windows_10",
       "vmx_data": {
         "RemoteDisplay.vnc.enabled": "false",
@@ -178,7 +178,7 @@
     "iso_checksum": "e755cfebdc6a2b8fe47e4033111e00ea2c13a487",
     "iso_checksum_type": "sha1",
     "iso_url": "./iso/en-gb_windows_10_business_edition_version_1803_updated_jul_2018_x64_dvd_12613160.iso",
-    "restart_timeout": "10m",
+    "restart_timeout": "15m",
     "vhv_enable": "false",
     "winrm_timeout": "6h"
   }
